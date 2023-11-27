@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Navigation Bar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .icon {
+      display: inline-block;
+      margin-right: 25px;
+      position: relative;
+      cursor: pointer;
+      transition: margin-right 0.3s ease; /* Added transition effect */
+    }
+
+    .icon:hover {
+      border: 2px solid whitesmoke;
+      margin-right: 90px; /* Adjust the value based on your preference */
+    }
+
+    .icon:hover .dropdown {
+      display: block;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-item {
+      padding: 12px;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+      display: block;
+      border-bottom: 2px solid white;
+    }
+
+    .icon:hover::after {
+      border: 1px solid seashell;
+      content: attr(data-name);
+      display: block;
+      position: absolute;
+      margin-left: 5px;
+      top: 50%;
+      left: 100%;
+      transform: translate(-5px, -50%);
+      background-color: #333;
+      padding: 5px;
+      border-radius: 5px;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="icon" data-name="Home">
+      <i class="fas fa-home fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">Dashboard</a>
+        <a href="#" class="dropdown-item">Profile</a>
+        <a href="#" class="dropdown-item">Settings</a>
+      </div>
+    </div>
+
+    <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+  
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+  
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+  
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+
+      <div class="icon" data-name="Home">
+        <i class="fas fa-home fa-lg"></i>
+        <div class="dropdown">
+          <a href="#" class="dropdown-item">Dashboard</a>
+          <a href="#" class="dropdown-item">Profile</a>
+          <a href="#" class="dropdown-item">Settings</a>
+        </div>
+      </div>
+  
+    <div class="icon" data-name="Messages">
+      <i class="fas fa-envelope fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">Inbox</a>
+        <a href="#" class="dropdown-item">Sent Items</a>
+        <a href="#" class="dropdown-item">Compose</a>
+      </div>
+    </div>
+
+    <div class="icon" data-name="Notifications">
+      <i class="fas fa-bell fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">Alerts</a>
+        <a href="#" class="dropdown-item">Updates</a>
+        <a href="#" class="dropdown-item">Settings</a>
+      </div>
+    </div>
+
+    <div class="icon" data-name="Profile">
+      <i class="fas fa-user fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">My Profile</a>
+        <a href="#" class="dropdown-item">Edit Profile</a>
+      </div>
+    </div>
+
+    <div class="icon" data-name="Tasks">
+      <i class="fas fa-tasks fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">Task List</a>
+        <a href="#" class="dropdown-item">Completed Tasks</a>
+      </div>
+    </div>
+
+    <div class="icon" data-name="Calendar">
+      <i class="fas fa-calendar-alt fa-lg"></i>
+      <div class="dropdown">
+        <a href="#" class="dropdown-item">Events</a>
+        <a href="#" class="dropdown-item">Schedule</a>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>

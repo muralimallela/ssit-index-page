@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!--<link rel="stylesheet" href="css/font-awesome.css" /> -->
+  <link rel="stylesheet" href="test.css" />
+  <title>Navbar with 14 Links</title>
+</head>
+
+<body>
+  <div class="">
+    <img src="icons/logo.jpg" alt="" height="80" width="100%" />
+    <nav class="navbar navbar-expand-sm navbar-light text-nowrap" id="NavBar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <!-- Home Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Home">
+                <img src="icons/Home-Icon.gif" alt="" />
+              </div>
+            </a>
+          </li>
+          <!-- Home End -->
+
+          <!-- Administration -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Administration">
+                <img src="icons/institution.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="about.php">AboutUs</a></li>
+              <li><a href="management.php">Management</a></li>
+              <li><a href="society.php">Society</a></li>
+
+              <li><a href="vmq.php">Vision and Mission</a></li>
+              <li><a href="vmq.php">Quality Policy</a></li>
+              <li><a href="ogram.php">Organogram</a></li>
+              <li><a href="gbody.php">Governing Body</a></li>
+              <li><a href="principal.php">Principal</a></li>
+              <li><a href="./academic_council.php">Academic Council</a></li>
+              <li>
+                <a href="mandatorydisclosure.php">Mandatory Disclosure</a>
+              </li>
+              <li><a href="strength.php">Strengths</a></li>
+            </ul>
+          </li>
+          <!-- End of Administration -->
+
+          <!-- Academics start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Academics">
+                <img src="icons/knowledge.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="academicreg.php">Academic Regulations</a></li>
+              <li><a href="acacalender.php">Academic Calender</a></li>
+              <li><a href="incentives.php">Incentives</a></li>
+              <li><a href="socialservs.php">Social Services</a></li>
+            </ul>
+          </li>
+          <!-- Academics end -->
+
+          <!-- Departments Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Departments">
+                <img src="icons/support.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="cse.php">CSE</a></li>
+              <li><a href="aiml.php">CSE(AI & ML)</a></li>
+              <li><a href="aid.php">AI & DS</a></li>
+              <li><a href="ece.php">ECE</a></li>
+              <li><a href="eee.php">EEE</a></li>
+              <li><a href="sh.php">S & H</a></li>
+              <li><a href="mech.php">MECH</a></li>
+              <li><a href="mba.php">MBA</a></li>
+              <li><a href="diploma.php">Polytechnic</a></li>
+            </ul>
+          </li>
+          <!-- Departments end -->
+
+          <!-- Admissions start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Admissions">
+                <img src="icons/admission.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="admission_procedure.php">Admission Procedure</a>
+              </li>
+              <li><a href="academicreg.php">Fee Structure</a></li>
+              <li><a href="Admissions/index.php">Admission From</a></li>
+            </ul>
+          </li>
+          <!-- Admissions end -->
+
+          <!-- Governence start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Governence">
+                <img src="icons/government_1582445.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="counselling.php">Counselling</a></li>
+              <li><a href="exb.php">Examination Branch</a></li>
+              <li><a href="admin.php">Administrative Office</a></li>
+              <li><a href="./policies.php">Policies</a></li>
+              <li><a href="./committees.php">committees</a></li>
+            </ul>
+          </li>
+          <!-- Governence End -->
+
+          <!-- Amenities Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Amenties">
+                <img src="icons/smart-home_4264229.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="library.php">Library</a></li>
+              <li><a href="digitallibrary.php">Digital Library</a></li>
+              <li><a href="internet.php">Internet</a></li>
+              <li><a href="englishlabs.php">English Labs</a></li>
+              <li><a href="ictfacilities.php">ICT Facilities</a></li>
+              <li><a href="seminarhalls.php">Seminar Halls</a></li>
+              <li><a href="sports.php">Sports & Games</a></li>
+              <li><a href="cafeteria.php">Cafeteria</a></li>
+              <li><a href="hostels.php">Hostels</a></li>
+              <li><a href="transport.php">Trasportation</a></li>
+              <li><a href="e_classrooms.php">E-Class Rooms</a></li>
+              <li><a href="staff_quarters.php">Staff Quarters</a></li>
+              <li><a href="temple.php">Temple in College</a></li>
+            </ul>
+          </li>
+          <!-- Amenities End -->
+
+          <!-- Placements End -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Placements">
+                <img src="icons/box.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="pl_rec.php">Placement Records</a></li>
+              <li><a href="companies.php">Companies</a></li>
+            </ul>
+          </li>
+          <!-- Placements End -->
+
+          <!-- NAAC Start -->
+          <li class="nav-item dropdown">
+            <a style="border-radius: 10px; overflow: hidden" target="_blank" href="nc1.php" data-toggle="dropdown"
+              class="dropdown-t">
+              <div class="icon" data-name="NAAC">
+                <img src="icons/naac1-removebg-preview (1).png" alt=" " />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="naac.php" target="_blank">NAAC SSR</a></li>
+              <li><a href="dvv.php" target="_blank">NAAC DVV</a></li>
+              <li><a href="iqac.php">IQAC</a></li>
+              <li>
+                <a href="./docs/iiqa/selfdeclaration.pdf" target="_blank">Self Declaration</a>
+              </li>
+              <li>
+                <a href="./docs/iiqa/undertaking.pdf" target="_blank">Undertaking</a>
+              </li>
+              <li>
+                <a href="./docs/iiqa/iiqareport.pdf" target="_blank">IIQA Report</a>
+              </li>
+            </ul>
+          </li>
+          <!-- NAAC End -->
+
+          <!-- NIRF Start -->
+          <li class="nav-item dropdown">
+            <a target="_blank" href="nc1.php" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="NIRF">
+                <img src="icons/nirf-removebg-preview.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./docs/nirf/overall.pdf" target="_blank">NIRF-Overall</a>
+              </li>
+              <li>
+                <a href="./docs/nirf/engineering.pdf" target="_blank">NIRF-Engineering</a>
+              </li>
+            </ul>
+          </li>
+          <!-- NIRF End -->
+
+          <!-- Alumini Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Alumni">
+                <img src="icons/alumnipng.png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./ALUMNI/inv_21_22.pdf" target="_balk">INVITATION - AY:21-22</a>
+              </li>
+              <li><a href="alumnireg1.php">Registration</a></li>
+              <li><a href="alumnilist.php">View Students</a></li>
+            </ul>
+          </li>
+          <!-- Alumini End -->
+
+          <!-- Student Corner Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Student Corner">
+                <img src="icons/student.gif" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./docs/SSP/inv_23_24.pdf" target="_balk">Student Scholorship Notification - AY:23-24</a>
+              </li>
+              <li>
+                <a href="sspreg.php">Student Scholorship Registration</a>
+              </li>
+              <li><a href="socialservs.php">Social Services</a></li>
+            </ul>
+          </li>
+          <!-- Studnet Corner End -->
+
+          <!-- Greivences Start -->
+          <li class="dropdown">
+            <a href="enqf.php" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Greivences">
+                <img src="icons/download-removebg-preview (4).png" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="enqf.php">EnqiryForm</a></li>
+              <li><a href="greivances.php">Greivences Form</a></li>
+              <li><a href="iccommittee.php">IC Committee</a></li>
+              <li><a href="ai_feedback.php">AICTE FeedBack</a></li>
+              <li>
+                <a href="https://forms.gle/9AuHJGp4meCyG6ee8" target="_blank">TEACHER FeedBack</a>
+              </li>
+              <li>
+                <a href="https://forms.gle/kkWpqpsb5aodbDYcA" target="_blank">
+                  STUDENT FeedBack</a>
+              </li>
+              <li>
+                <a href="https://forms.gle/HmGnHKgquoxamZ8aA" target="_blank">EMPLOYER FeedBack</a>
+              </li>
+              <li>
+                <a href="https://forms.gle/4pQEhowqfNoGjrfr7" target="_blank">ALUMNI FeedBack</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Greivences End -->
+
+          <!-- Gallery Start -->
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Gallery">
+                <img src="icons/photo-gallery.gif" alt="" />
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="gallery.php">Campus Photos</a></li>
+              <li><a href="news_galary.php">Notifications</a></li>
+              <li><a href="login.php">LOGIN</a></li>
+            </ul>
+          </li>
+          <!-- Gallery End -->
+
+          <!-- Results Start -->
+          <li class="dropdown">
+            <a href="contact.php" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Exam Results">
+                <img src="icons/exresults-removebg-preview (4).png" alt="" />
+              </div>
+            </a>
+          </li>
+          <!-- Results End -->
+
+          <!-- Contact Start -->
+          <li class="dropdown">
+            <a href="contact.php" data-toggle="dropdown" class="dropdown-t">
+              <div class="icon" data-name="Contact Us">
+                <img src="icons/contactus-removebg-preview.png" alt="" height=" " />
+              </div>
+            </a>
+            <!-- <ul class="dropdown-menu">
+                <li><a href="contact.php">Contact Us</a></li>
+              </ul> -->
+          </li>
+          <!-- Contact End -->
+          <li class="dropdown"></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <nav class="nav-social">
+    <ul class="ul-social">
+      <li class="li-social">
+        <a href="#" class="a-social"><i class="fab fa-facebook-f i-social"></i><span
+            class="span-social">Facebook</span></a>
+      </li>
+      <li class="li-social">
+        <a href="#" class="a-social"><i class="fab fa-twitter i-social"></i><span class="span-social">Twitter</span></a>
+      </li>
+      <li class="li-social">
+        <a href="#" class="a-social"><i class="fab fa-instagram i-social"></i><span
+            class="span-social">Instagram</span></a>
+      </li>
+      <li class="li-social">
+        <a href="#" class="a-social"><i class="fab fa-linkedin-in i-social"></i><span
+            class="span-social">Linkedin</span></a>
+      </li>
+      <li class="li-social">
+        <a href="#" class="a-social"><i class="fab fa-youtube i-social"></i><span class="span-social">Youtube</span></a>
+      </li>
+    </ul>
+  </nav>
+  <marquee behavior="alternate" direction="" style="
+        background: rgba(144, 34, 3, 1);
+        border-color: 1px solid yellow;
+        margin-bottom: -5px;
+        color: cyan;
+        padding: 5px;
+      " onmouseover="this.stop()" onmouseout="this.start()">Results Out now &ensp;|&ensp; hello &ensp;|&ensp; Click
+    here to MBA B-
+    Category Seats Advertisement
+  </marquee>
+
+  <div class="" style="display: flex">
+    <div class="col-8" style="padding: 0">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 76vh">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="slides/1.jpg" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/3.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/4.jpg" alt="Third slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/5.jpg" alt="Third slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/6.jpg" alt="Third slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/10.jpg" alt="Third slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="slides/8.jpg" alt="Third slide" />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-4 text-white" style="background: rgba(144, 34, 3, 1); height: 76vh; overflow: hidden">
+      <marquee behavior="alternate" direction="up" style="margin: -15px; padding: 0">
+        <img src="slides/1.jpg " w-100 alt="" width="100%" />
+        <img src="slides/3.jpg " w-100 alt="" width="100%" />
+      </marquee>
+    </div>
+  </div>
+
+  <div id="wrapper" class="container">
+    <div>
+      <h3 style="text-align: center; font-weight: bold; color: #ff7701">
+        Notifications
+      </h3>
+      <div class="marquee">
+        <div class="marquee-group">
+          <div class="image-group">
+            <div class="image" style="display: flex; padding: 10px">
+              <div class="sc-btewqU iGGTie">
+                <img
+                  src="https://nxtwave.imgix.net/ccbp-website/Reviews/profile-images/sayak-dutta.png?auto=format,compress&amp;q=80"
+                  data-clarity-mask="True" class="sc-imapFV lfpsgi" width="60" />
+              </div>
+              <div class="sc-fATqzn ksEYSg">
+                <p data-clarity-mask="True" class="sc-jbWsrJ hLZAsZ">
+                  Sayak Dutta
+                </p>
+                <p class="sc-hqGPoI fPsKPF">Software Engineer</p>
+                <div class="sc-imAxmJ haKgfA">
+                  <img
+                    src="https://uploads-ssl.webflow.com/5fa8dc0b7e7df803cdc8e75c/63f70fe48081917733bca638_google.png"
+                    class="sc-iWadT gMZdUP" width="70" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <div class="image" style="display: flex; padding: 10px">
+              <div class="sc-btewqU iGGTie">
+                <img
+                  src="https://nxtwave.imgix.net/ccbp-website/Reviews/profile-images/sayak-dutta.png?auto=format,compress&amp;q=80"
+                  data-clarity-mask="True" class="sc-imapFV lfpsgi" width="60" />
+              </div>
+              <div class="sc-fATqzn ksEYSg">
+                <p data-clarity-mask="True" class="sc-jbWsrJ hLZAsZ">
+                  Sayak Dutta
+                </p>
+                <p class="sc-hqGPoI fPsKPF">Software Engineer</p>
+                <div class="sc-imAxmJ haKgfA">
+                  <img
+                    src="https://uploads-ssl.webflow.com/5fa8dc0b7e7df803cdc8e75c/63f70fe48081917733bca638_google.png"
+                    class="sc-iWadT gMZdUP" width="70" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <div class="image" style="display: flex; padding: 10px">
+              <div class="sc-btewqU iGGTie">
+                <img
+                  src="https://nxtwave.imgix.net/ccbp-website/Reviews/profile-images/sayak-dutta.png?auto=format,compress&amp;q=80"
+                  data-clarity-mask="True" class="sc-imapFV lfpsgi" width="60" />
+              </div>
+              <div class="sc-fATqzn ksEYSg">
+                <p data-clarity-mask="True" class="sc-jbWsrJ hLZAsZ">
+                  Sayak Dutta
+                </p>
+                <p class="sc-hqGPoI fPsKPF">Software Engineer</p>
+                <div class="sc-imAxmJ haKgfA">
+                  <img
+                    src="https://uploads-ssl.webflow.com/5fa8dc0b7e7df803cdc8e75c/63f70fe48081917733bca638_google.png"
+                    class="sc-iWadT gMZdUP" width="70" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <div class="image" style="display: flex; padding: 10px">
+              <div class="sc-btewqU iGGTie">
+                <img
+                  src="https://nxtwave.imgix.net/ccbp-website/Reviews/profile-images/sayak-dutta.png?auto=format,compress&amp;q=80"
+                  data-clarity-mask="True" class="sc-imapFV lfpsgi" width="60" />
+              </div>
+              <div class="sc-fATqzn ksEYSg">
+                <p data-clarity-mask="True" class="sc-jbWsrJ hLZAsZ">
+                  Sayak Dutta
+                </p>
+                <p class="sc-hqGPoI fPsKPF">Software Engineer</p>
+                <div class="sc-imAxmJ haKgfA">
+                  <img
+                    src="https://uploads-ssl.webflow.com/5fa8dc0b7e7df803cdc8e75c/63f70fe48081917733bca638_google.png"
+                    class="sc-iWadT gMZdUP" width="70" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <div class="image">
+              <h1><a href="#">hello</a></h1>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/1a3a41" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/776674" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/95a22a" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/123456" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/1a3a41" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/776674" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/1a3a41" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/24f355" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/234234" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/1a3a41" alt="Image 1" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img class="image" src="https://via.placeholder.com/150/776674" alt="Image 1" />
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align: center; font-weight: bold; color: #ff7701">
+        Events
+      </h3>
+      <div class="marquee">
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/54353g6" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/54353g6" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/234234" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/57567t4" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/123124" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/896786" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/22cw456" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/345a345" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/734543" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/54353g6" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/54353g6" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/234234" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group-2">
+          <div class="image-group">
+            <img src="https://via.placeholder.com/600/57567t4" alt="" class="image" />
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align: center; font-weight: bold; color: #ff7701">
+        Our MOUS
+      </h3>
+      <div class="marquee">
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/mission10x.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/cisco.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/oracle-academy.png" class="image" alt="" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/eswecha.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img//mou/ms-windows.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/wipro.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/task.png" alt="" class="image" style="padding: 15px" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/campus-connect-infosys.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/hetero.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/mission10x.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/cisco.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/oracle-academy.png" class="image" alt="" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/eswecha.png" alt="" class="image" />
+          </div>
+        </div>
+        <div class="marquee-group">
+          <div class="image-group">
+            <img src="img/mou/ms-windows.png" alt="" class="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic mollitia
+      quasi veritatis similique autem quisquam repellendus quis blanditiis
+      repellat debitis soluta odio ipsam minus, sed distinctio facilis nostrum
+      voluptatibus aliquid?
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, eos.
+      Perferendis aspernatur in omnis ipsam, deserunt, ea inventore vel,
+      voluptatum voluptatibus magni aliquam! Inventore veniam assumenda eius
+      laudantium, saepe officiis minus hic debitis voluptas iusto eligendi
+      fuga. Dolorem molestias voluptatum cupiditate quibusdam similique amet!
+      Quidem quisquam veritatis animi recusandae consequatur qui dolor saepe
+      fugiat tenetur deserunt ea reiciendis, quod laboriosam accusantium nemo
+      distinctio praesentium. Assumenda, nesciunt, eum ad labore tenetur ex,
+      maiores soluta impedit vel consequuntur itaque temporibus omnis
+      obcaecati esse pariatur? Consequuntur eveniet, ex illum, aut ab nam
+      sequi rem vitae accusamus assumenda voluptate voluptatem maxime
+      distinctio, illo labore similique qui mollitia placeat! Voluptatem
+      cumque repellendus, culpa quasi ducimus sint dicta ratione consequuntur
+      quas, ad perspiciatis officia, maxime deserunt quisquam aliquam dolor.
+      Officiis aspernatur ducimus omnis nemo aperiam reiciendis commodi
+      deserunt molestias recusandae fugit praesentium optio assumenda at eaque
+      rerum, dolores quis consectetur facere voluptatum laudantium minima
+      ipsum? Maiores sed unde quidem enim libero minima ad excepturi
+      blanditiis assumenda numquam harum obcaecati porro dolor voluptatum
+      eligendi cum incidunt omnis, nostrum repudiandae? Aliquam ratione animi
+      perferendis saepe porro laudantium aperiam vitae sint, quis corrupti id
+      magnam amet officiis nostrum iusto eveniet minus eum alias eligendi
+      labore unde assumenda aliquid explicabo!
+    </p>
+  </div>
+
+  <!-- <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    const navbar = document.getElementById("NavBar");
+    let top1 = navbar.offsetTop;
+    function stickynavbar() {
+      if (window.scrollY >= 80) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    window.addEventListener("scroll", stickynavbar);
+  </script>
+</body>
+
+</html>
