@@ -371,6 +371,11 @@ html {
   box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
 }
 
+.d-block{
+  height: 76vh;
+  object-fit: cover;
+}
+
 @keyframes scrollX {
   0% {
     transform: translateX(0);
